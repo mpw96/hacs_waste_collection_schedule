@@ -9,7 +9,7 @@ waste_collection_schedule:
   sources:
     - name: bsr_de
       args:
-        schedule_id: CALID
+        schedule_id: SCHEDID
 ```
 
 ### Configuration Variables
@@ -31,7 +31,7 @@ waste_collection_schedule:
 
 There is a script with an interactive command line interface which generates the required source configuration:
 
-[https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/custom_components/waste_collection_schedule/waste_collection_schedule/wizard/bsr_de.py](https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/custom_components/waste_collection_schedule/waste_collection_schedule/wizard/bsr_de.py).
+[custom_components/waste_collection_schedule/waste_collection_schedule/wizard/bsr_de.py](../../custom_components/waste_collection_schedule/waste_collection_schedule/wizard/bsr_de.py).
 
 First, install the Python modules `inquirer` and `requests`.
 Then run this script from a shell and answer the questions.
